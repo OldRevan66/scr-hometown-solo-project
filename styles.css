@@ -7,12 +7,100 @@ LIGHT BLUE: #457B9D
 DARK BLUE: #1D3557
 
 */
-
 body {
     margin: 0;
     text-align: center;
 }
 
+
+.hero-section {
+    background-image: url("images/cdmx.jpg");
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    background-color: #780000;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+.hero-h2 {
+    background-color: #C1121F;
+    color: white;
+    padding: 8px 28px;
+    border-radius: 5px;
+    font-size: 28px;
+}
+
+
 img {
     width: 100px;
+}
+
+.activities-h2 {
+    color: #780000;
+    font-size: 36px;
+}
+
+.activities-section {
+    background-color: #FDF0D5;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.activities-row {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity-desc {
+    width: 400px;
+    margin: 50px 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.activity-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-position: center;
+}
+
+#me-img {
+    width: 200px;
+}
+
+h3 {
+    color: #780000;
+    font-size: 32px;
+}
+
+.activity-p {
+    font-size: 32px;
+}
+
+.guide-section {
+
+}
+
+.guide-card {
+    display: flex;
+    justify-content: center;
+    background-color: #669BBC;
+}
+
+.card-text {
+
 }
