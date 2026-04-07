@@ -23,11 +23,15 @@ body {
     align-items: center;
 }
 
+.hero-text-div {
+    width: 60vw;
+}
+
 h1 {
     background-color: #780000;
     color: white;
     padding: 5px 12px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 40px;
 }
 
@@ -35,7 +39,7 @@ h1 {
     background-color: #C1121F;
     color: white;
     padding: 8px 28px;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 28px;
 }
 
@@ -64,10 +68,9 @@ img {
 
 .activity-desc {
     width: 400px;
-    margin: 50px 200px;
+    margin: 50px 35px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .activity-img {
@@ -79,7 +82,9 @@ img {
 }
 
 #me-img {
-    width: 200px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px;
 }
 
 h3 {
@@ -92,15 +97,35 @@ h3 {
 }
 
 .guide-section {
-
+    display: ;
 }
 
 .guide-card {
     display: flex;
     justify-content: center;
     background-color: #669BBC;
+    color: #003049;
+    margin: 70px auto;
+    padding: 25px 15px;
+    border-radius: 10px;
+    border-bottom: 10px solid #003049;
+
+    width: 600px;
 }
 
 .card-text {
 
+}
+
+.guide-h2 {
+    font-size: 32px;
+}
+
+.guide-p {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.guide-name {
+    font-size: 24px;
 }
